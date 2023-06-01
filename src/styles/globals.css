@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Apis';
+  src: url('../../assets/fonts/Apis-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apis-Bold';
+  src: url('../../assets/fonts/Apis-Bold.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apis-Black';
+  src: url('../../assets/fonts/Apis-Black.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apis-Regular';
+  src: url('../../assets/fonts/Apis-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apis-Medium';
+  src: url('../../assets/fonts/Apis-Medium.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.border {
+  border: none !important
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+.font-bold {
+  font-family: 'Apis-Bold';
+}
+
+.font-black {
+  font-family: 'Apis-Black';
+}
+
+.font-regular {
+  font-family: 'Apis-Regular';
+}
+
+.font-medium {
+  font-family: 'Apis-Medium';
+}
+
+.secondary-background.active {
+  background-color: #98CFEF;
+}
+
+.secondary-background {
+  background-color: #F8F8F8;
+}
+
+.tab {
+  padding: 15px;
+  box-shadow: 15px 15px 15px 15px #e3e3e388;
+}
+
+.main {
+  padding-top: 120px;
+}
+
+.appBar::after {
+  clear: both;
+}
+
+.white {
+  background-color: white;
+}
+
+*::-webkit-scrollbar {
+  width: .1em;
+}
+ 
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding-top: 120px;
+  }
+}
